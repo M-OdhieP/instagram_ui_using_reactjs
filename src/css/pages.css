@@ -1,0 +1,66 @@
+.messeger::before {
+  color: white;
+}
+.story {
+  border-radius: 50%;
+}
+.story-container {
+  width: auto;
+
+  overflow-y: scroll; /* Add the ability to scroll */
+}
+.font-story {
+  font-size: small;
+  margin-top: 5px;
+}
+.other-story {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.circle-story {
+  width: 75px;
+  height: 75px;
+  background: linear-gradient(45deg, gold, fuchsia);
+  z-index: -1;
+}
+
+.stories {
+  width: 75px;
+  height: 75px;
+}
+
+.my-story {
+  color: rgb(0, 140, 255);
+  text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255),
+    -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+}
+
+.post {
+  width: 40px;
+  height: 40px;
+}
+.post-profile-pic {
+  width: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.like-pic-post {
+  width: 32px;
+}
+
+.circle-post {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(45deg, gold, fuchsia);
+  z-index: -1;
+}
+.story-container::-webkit-scrollbar {
+  display: none;
+}
